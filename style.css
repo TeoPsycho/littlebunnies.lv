@@ -40,23 +40,37 @@ div.section {
 }
 
 hr {
-    border-color: #F05F44;
-    border-width: 2px;
-    max-width: 300px;   
+	border-color: #F05F44;
+	border-width: 2px;
+	max-width: 300px;
 }
 
-img.gallery {
-	width: 300px;
-	padding: 25px;
-	/*transition: all 0.5s linear;*/
+#map {
+	height: 300px;
+	width: 500px;
 }
 
-/*img.gallery:hover {
-	transform: rotate(-5deg);
-	transition: all 0.5s linear;
-}*/
+.grid-wrapper {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(min(350px, 100%), 1fr));
+}
+
+.box {
+	background-color: lightgrey;
+	padding: 15px;
+	/* margin: 20px; */
+}
+
+.box>img {
+	width: 100%
+}
 
 img.bunnies {
 	width: 300px;
 	padding: 0px;
-	}
+}
+
+footer {
+	font-size: 0.8em;
+}
