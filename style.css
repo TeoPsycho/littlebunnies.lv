@@ -50,6 +50,7 @@ hr {
 	max-width: 300px;
 	/* height: 300px; */
 	/* overflow: hidden; */
+	background-color: grey;
 }
 
 .grid-wrapper {
